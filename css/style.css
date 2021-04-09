@@ -25,10 +25,6 @@ header{
     margin: auto;
     display: flex;
     align-items: center;
-    
-
-    /*test*/
-    background-color: burlywood;
 }
 
 .logo{
@@ -73,18 +69,22 @@ header{
 /*Finestra menu*/
 .dropdown{
     position: absolute;
-    top: 100%;
+    top: 150%;
     left: 0;
     padding: 0px 10px;
-    width: 270px;
     font-size: 15px;
     border-radius: 5px;
     box-shadow: 1px 1px 3px 1px lightgray;
-
+    width: 270%;
+    display: none;
 
 
     /*test*/
     background-color: white;
+}
+
+.dropdown.active{
+    display: block;
 }
 
 .dropdown li{
@@ -93,10 +93,15 @@ header{
     padding: 10px 0;
 }
 
-li.text-red a{
+.dropdown li.li-text-red{
+    padding: 0;
+}
+
+.dropdown a.text-red{
     color: red;
     position: absolute;
-    padding: 0;
+    bottom: 22px;
+    left: 25px;
 }
 /*Fine Finestra menu*/
 
