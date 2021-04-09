@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Generale*/
+img{
+    width: 100%;
+}
+/*fine generale*/
+
+/* Header */
+/* Menu */
+header{
+
+
+    /*test*/
+    padding: 50px;
+}
+
+.container{
+    max-width: 1100px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+
+    /*test*/
+    background-color: burlywood;
+}
+
+.logo{
+    width: 10%;
+}
+
+.left-menu{
+    width: 30%;
+    text-align: center;
+}
+
+.right-menu{
+    width: 60%;
+    text-align: right;
+}
+
+.container li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 4%;
+    position: relative;
+}
+
+.container li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.container li i{
+    font-size: 8px;
+    color: grey;
+}
+
+.container li.button a{
+    border:1px solid red;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+}
+
+/*Finestra menu*/
+.dropdown{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0px 10px;
+    width: 270px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 1px lightgray;
+
+
+
+    /*test*/
+    background-color: white;
+}
+
+.dropdown li{
+    display: block;
+    text-align: left;
+    padding: 10px 0;
+}
+
+li.text-red a{
+    color: red;
+    position: absolute;
+    padding: 0;
+}
+/*Fine Finestra menu*/
+
+/* Fine Menu */
+/* Fine Header */
